@@ -51,7 +51,7 @@ Includes **product management**, **cart/wishlist**, **user dashboard**, and **ad
 ---
 
 ## ⚡ Project Structure
-
+```
 src/
 ├─ components/
 │ ├─ Header.jsx
@@ -72,7 +72,7 @@ src/
 ├─ firebase.js
 ├─ App.jsx
 └─ main.jsx
-
+```
 
 ---
 
@@ -82,11 +82,13 @@ src/
 ```bash
 git clone <your-repo-url>
 cd <your-project-folder>
-
+```
 2. **Install dependencies**
+```bash
 npm install
+```
 
-3. **Configure Firebase**
+4. **Configure Firebase**
 
 Create a Firebase project at {https://console.firebase.google.com/}
 Enable Google Authentication.
@@ -101,12 +103,12 @@ const firebaseConfig = {
   messagingSenderId: "YOUR_MSG_SENDER_ID",
   appId: "YOUR_APP_ID",
 };
+```
 
 4. **Start the app**
-``bash
-
+```bash
 npm run dev
-
+```
 ---
 
 📝 Author
